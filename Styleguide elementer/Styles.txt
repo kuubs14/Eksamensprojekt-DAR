@@ -1,0 +1,14 @@
+Primary:
+#3f5b58, rgb(63,92,89) = Grå
+
+Secondary:
+#c8102e, rgb(200,16,46) = Rød
+
+Tertiary:
+#597E50, rgb(89,126,80) = Grøn
+#002855, rgb(0,40,85) = Blå
+#489ed8, rgb(72,159,216) = Lyseblå
+#f5821e, rgb(245,130,30) = Orange
+#8d1b3d, rgb(141,27,61) = Mørke Rød
+#000000, rgb(0,0,0) = Sort
+#93358c, rgb(147,53,141) = Lilla
