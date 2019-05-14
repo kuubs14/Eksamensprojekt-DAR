@@ -74,5 +74,18 @@ p {
     margin-top: 20px;
     margin-bottom: 50px;
     padding-top:
+}
 
+.billedeKasse1 {
+    width: 55%;
+    margin-left: 23%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.interactiveMap {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
