@@ -26,6 +26,7 @@ body {
     font-style: italic;
     text-align: center;
     padding: 12px;
+    color: #000000
 }
 .logo {
     border-right: solid;
@@ -109,4 +110,11 @@ body {
     border: solid;
     border-left-width: inherit;
     cursor: pointer;
+}
+
+/*Kode om main*/
+
+.map {
+    height: 80vh;
+    width: 1536px;
 }
