@@ -12,6 +12,9 @@ body {
     border-bottom: solid;
     border-width: 2px;
     border-color: #000000;
+    min-height: 75px;
+    position: fixed;
+    background-color: #ECECEC;
 }
 .dar {
     width: 45px;
@@ -19,6 +22,7 @@ body {
     float: left;
     margin: 8px 8px 8px 25px;
     min-width: 45px;
+    
 }
 .topbar h1 {
     margin: 7px;
@@ -27,20 +31,22 @@ body {
     text-align: center;
     padding: 12px;
     color: #000000;
-    min-width: 200px;
+    min-width: 100px;
 }
 .logo {
     border-right: solid;
     height: 10vh;
     width: 18%;
     float: left;
-    min-width: 200px;
+    min-width: 273px;
+    min-height: 75px;
 }
 .t-med {
     height: 10vh;
     float: left;
     width: 18%;
     border-right: solid;
+    min-height: 75px;
 }
 .t-med:hover {
     background-color: #555555;
@@ -55,12 +61,14 @@ body {
 .t-med p {
     padding: 11px;
     text-align: center;
+
 }
 .om-os {
     height: 10vh;
     float: left;
     width: 15%;
     border-right: solid;
+    min-height: 75px;
 }
 .om-os:hover {
     background-color: #555555;
@@ -81,6 +89,7 @@ body {
     float: left;
     width: 15%;
     border-right: solid;
+    min-height: 75px;
 }
 .kontakt:hover {
     background-color: #555555;
@@ -105,14 +114,22 @@ body {
     width: 20%;
 }
 .topbar button img{
-  width: 29px;
-  margin-left: 9.2px;
+  width: 60%;
+  margin: 20%;
+  float: left;
+  clear: left;
+  min-width: 60%;
+  min-height: 18px;
 }
 .topbar button {
     margin-top: 11px;
     border: solid;
     border-left-width: inherit;
     cursor: pointer;
+    width: 4%;
+    height: 6.9vh;
+    min-width: 4%;
+    min-height: 52px;
 }
 
 /*Kode om main*/
