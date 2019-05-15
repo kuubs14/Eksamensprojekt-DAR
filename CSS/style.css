@@ -59,9 +59,7 @@ body {
     border-color: #000000;
 }
 .t-med p {
-    padding: 11px;
     text-align: center;
-
 }
 .om-os {
     height: 10vh;
@@ -109,28 +107,45 @@ body {
     padding: 10px;
     border: solid;
     font-size: 1.5em;
-    margin: 11px 0px 0px 50px;
-    float: left;
-    width: 20%;
+    float: right;
+    width: 10%;
+    margin-top: 11.5px;
 }
 .topbar button img{
   width: 60%;
   margin: 20%;
   float: left;
-  clear: left;
-  min-width: 60%;
+  min-width: 40%;
   min-height: 18px;
 }
 .topbar button {
-    margin-top: 11px;
     border: solid;
     border-left-width: inherit;
     cursor: pointer;
     width: 4%;
     height: 6.9vh;
-    min-width: 4%;
+    min-width: 53px;
     min-height: 52px;
+    float: right;
+    margin-top: 11.5px;
+    margin-right: 1%;
 }
+@media screen and (min-width: 1398px) {
+    .topbar input {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1398px) {
+    .topbar input {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 1180px) {
+    .topbar input {
+        width: 10%;
+    }
+}
+
 
 /*Kode om main*/
 
