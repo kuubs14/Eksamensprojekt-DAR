@@ -153,13 +153,43 @@ body {
 .map {
     height: 90vh;
     width: 100%;
-    z-index: 0;
 }
 .rul-ned {
     text-align: center;
-    z-index: 1;
 }
 .rul-ned img {
     display: inline-block;
-    width: 5%;
+    width: 90px;
+    margin-top: -25px;
+}
+.oversigt {
+    background-color: #597E50;
+    width: 40%;
+    height: 15vw;
+    margin-left: 2%;
+    border: solid;
+}
+.oversigt img {
+    width: 51%;
+    float: left;
+    border-right: solid;
+    border-color: #000000;
+}
+.oversigt-tekst {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.oversigt button {
+    width: 35%;
+    position: relative;
+    left: 7.25%;
+    background-color: #C8102E;
+    color: #FFFFFF;
+    font-family: verdana, sans-serif;
+    font-size: 1vw;
+    border: solid;
+    border-color: #000000;
+    cursor: pointer;
+    
 }
