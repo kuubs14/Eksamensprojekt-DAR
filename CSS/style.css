@@ -109,7 +109,7 @@ body {
     font-size: 1.5em;
     float: right;
     width: 10%;
-    min-height: 3.6vh;
+    min-height: 18px;
     margin-top: 11.5px;
 }
 .topbar button img{
@@ -153,4 +153,13 @@ body {
 .map {
     height: 90vh;
     width: 100%;
+    z-index: 0;
+}
+.rul-ned {
+    text-align: center;
+    z-index: 1;
+}
+.rul-ned img {
+    display: inline-block;
+    width: 5%;
 }
