@@ -1,14 +1,17 @@
 /* generel side
  * 
  */
-html { scroll-behavior: smooth}
-
 body {
 
     font-family: 'Verdana';
     margin-left: 10%;
 
 }
+
+html {
+    scroll-behavior: smooth
+}
+
 
 .content {
     max-width: 1000px;
@@ -104,7 +107,7 @@ ul {
     margin-top: 300px;
     font-style: italic;
     position: fixed;
-   
+
 }
 
 li a {
@@ -113,8 +116,8 @@ li a {
     padding: 18px 20px;
     text-decoration: none;
     font-size: 25px;
-    
- 
+
+
 }
 
 li a.active {
