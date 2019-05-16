@@ -109,6 +109,7 @@ body {
     font-size: 1.5em;
     float: right;
     width: 10%;
+    min-height: 3.6vh;
     margin-top: 11.5px;
 }
 .topbar button img{
