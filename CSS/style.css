@@ -100,6 +100,8 @@ body {
     width: 15%;
     border-right: solid;
     min-height: 75px;
+    border-color: #000000;
+    color: #000000;
 }
 .kontakt:hover {
     background-color: #555555;
@@ -382,7 +384,7 @@ body {
     float:left
 }
 .rettelser input {
-    width: 75%;
+    width: 74%;
     padding: 1%;
     font-family: verdana, sans-serif;
     margin-bottom: 3%;
@@ -390,12 +392,11 @@ body {
     float: right;
     border: solid;
     border-color: #000000;
-    border-width: thin;
     margin: 2% 5% 2% 2%;
     font-size: 1vw;
 }
 .rettelser textarea {
-    width: 75%;
+    width: 74%;
     padding: 1%;
     font-family: verdana, sans-serif;
     margin-bottom: 3%;
@@ -403,7 +404,6 @@ body {
     float: right;
     border: solid;
     border-color: #000000;
-    border-width: thin;
     margin: 2% 5% 2% 2%;
     height: 15vh;
     font-size: 1vw;
@@ -422,5 +422,5 @@ body {
     color: #FFFFFF;
     border: solid;
     border-color: #000000;
-    border-width: thin
+    cursor: pointer;
 }

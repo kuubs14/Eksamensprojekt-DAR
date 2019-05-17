@@ -6,6 +6,7 @@
     <title>Mindelunden - Kontakt os</title>
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="icon" href="../Billeder/favicon.png">
+    <script src="../javascript/main.js" defer></script>
 </head>
 <body>
     <nav class="topbar">
@@ -57,12 +58,12 @@
                <input type="text" name="name" placeholder="Skriv dit navn her...">
                
                <label for="email" id="e-mail">E-mail:</label>
-               <input type="text" name="e-mail" placeholder="Skriv din e-mail her...">
+               <input type="email" name="e-mail" placeholder="Skriv din e-mail her...">
                
                <label for="rettelser" id="textarea">Rettelse:</label>
                <textarea name="rettelser" placeholder="Skriv din rettelse, historie eller kommentar her..."></textarea>
                
-               <input type="submit" id="submit" value="Send">
+               <input onclick="beskedSendt()" type="submit" id="submit" value="Send">
            </form>
        </div>
        
