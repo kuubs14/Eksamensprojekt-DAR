@@ -423,4 +423,26 @@ body {
     border: solid;
     border-color: #000000;
     cursor: pointer;
+    width: 30%;
+    padding: 1%;
+    font-family: verdana, sans-serif;
+    font-style: italic;
+    float: right;;
+    font-size: 1vw;
+}
+#submitSendt {
+    background-color: #597E50;
+    width: 15%;
+    height: 5vw;
+    float: right;
+    border: solid;
+    color: #FFFFFF;
+    border-color: #000000;
+    transform: translate(215%, 497%);
+    text-align: center;
+    display: none;
+}
+#submitSendt p {
+    margin-top: 12%;
+    font-size: 1vw;
 }
