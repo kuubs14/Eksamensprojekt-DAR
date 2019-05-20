@@ -4,6 +4,9 @@ body {
     font-family: verdana, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth
+}
 
 
 /*Kodning for topbar */
@@ -21,14 +24,16 @@ body {
     background-color: #ECECEC;
     z-index: 1;
 }
+
 .dar {
     width: 45px;
     height: auto;
     float: left;
     margin: 8px 8px 8px 25px;
     min-width: 45px;
-    
+
 }
+
 .topbar h1 {
     margin: 7px;
     font-size: 1em;
@@ -38,6 +43,7 @@ body {
     color: #000000;
     min-width: 100px;
 }
+
 .logo {
     border-right: solid;
     border-color: #000000;
@@ -47,6 +53,7 @@ body {
     min-width: 273px;
     min-height: 75px;
 }
+
 .t-med {
     height: 10vh;
     float: left;
@@ -55,14 +62,17 @@ body {
     min-height: 75px;
     color: #000000;
 }
+
 .t-med:hover {
     background-color: #555555;
     color: #FFFFFF;
     border-color: #000000;
 }
+
 .t-med p {
     text-align: center;
 }
+
 .om-os {
     height: 10vh;
     float: left;
@@ -71,11 +81,13 @@ body {
     min-height: 75px;
     color: #000000;
 }
+
 .om-os:hover {
     background-color: #555555;
     color: #FFFFFF;
     border-color: #000000;
 }
+
 .om-os-aktiv {
     background-color: #555555;
     border-color: #000000;
@@ -86,15 +98,18 @@ body {
     min-height: 75px;
     border-right-color: #000000;
 }
+
 .om-os-aktiv p {
     padding: 11px;
     text-align: center;
     color: #FFFFFF;
 }
+
 .om-os p {
     padding: 11px;
     text-align: center;
 }
+
 .kontakt {
     height: 10vh;
     float: left;
@@ -104,11 +119,13 @@ body {
     border-color: #000000;
     color: #000000;
 }
+
 .kontakt:hover {
     background-color: #555555;
     color: #FFFFFF;
     border-color: #000000;
 }
+
 .kontakt-aktiv {
     height: 10vh;
     float: left;
@@ -119,14 +136,17 @@ body {
     color: #FFFFFF;
     border-color: #000000;
 }
+
 .kontakt-aktiv p {
     padding: 11px;
     text-align: center;
 }
+
 .kontakt p {
     padding: 11px;
     text-align: center;
 }
+
 .topbar input {
     padding: 10px;
     border: solid;
@@ -137,13 +157,15 @@ body {
     margin-top: 11.5px;
     font-family: verdana, sans-serif;
 }
-.topbar button img{
-  width: 60%;
-  margin: 20%;
-  float: left;
-  min-width: 40%;
-  min-height: 18px;
+
+.topbar button img {
+    width: 60%;
+    margin: 20%;
+    float: left;
+    min-width: 40%;
+    min-height: 18px;
 }
+
 .topbar button {
     border: solid;
     border-left-width: inherit;
@@ -156,16 +178,19 @@ body {
     margin-top: 11.5px;
     margin-right: 1%;
 }
+
 @media screen and (min-width: 1398px) {
     .topbar input {
         width: 25%;
     }
 }
+
 @media screen and (max-width: 1398px) {
     .topbar input {
         width: 20%;
     }
 }
+
 @media screen and (max-width: 1180px) {
     .topbar input {
         width: 10%;
@@ -183,15 +208,18 @@ body {
     width: 100%;
     min-height: 44vw;
 }
+
 .rul-ned {
     text-align: center;
 }
+
 .rul-ned img {
     display: inline-block;
     width: 90px;
     margin-top: -25px;
     cursor: pointer;
 }
+
 .oversigt {
     background-color: #597E50;
     width: 40%;
@@ -201,17 +229,20 @@ body {
     border: solid;
     float: left;
 }
+
 .oversigt img {
     width: 51%;
     float: left;
     border-right: solid;
     border-color: #000000;
 }
+
 .oversigt-tekst {
     color: #FFFFFF;
     text-align: center;
     font-size: 1.5vw;
 }
+
 .oversigt button {
     width: 35%;
     position: relative;
@@ -224,6 +255,7 @@ body {
     border-color: #000000;
     cursor: pointer;
 }
+
 .o-hus {
     background-color: #597E50;
     width: 40%;
@@ -233,6 +265,7 @@ body {
     border: solid;
     float: left;
 }
+
 .o-hus img {
     width: 51%;
     float: left;
@@ -240,12 +273,14 @@ body {
     border-color: #000000;
     height: 15vw;
 }
+
 .o-hus-tekst {
     color: #FFFFFF;
     text-align: center;
     font-size: 1.5vw;
     margin: 5% 5% 0 55%;
 }
+
 .o-hus button {
     width: 35%;
     position: relative;
@@ -259,9 +294,11 @@ body {
     cursor: pointer;
     margin-top: 7%;
 }
+
 .main-nede {
     height: 44.5vw;
 }
+
 .info {
     background-color: #597E50;
     width: 40%;
@@ -273,11 +310,13 @@ body {
     position: relative;
     text-align: center;
 }
+
 .info img {
     width: 100%;
     height: 35.5vw;
     opacity: 0.3;
 }
+
 .info p {
     color: #FFFFFF;
     text-align: center;
@@ -303,6 +342,7 @@ body {
     border: solid;
     border-color: #000000;
 }
+
 .link-boks {
     background-color: #FFFFFF;
     float: left;
@@ -313,23 +353,28 @@ body {
     margin-left: 5%;
     width: 20%;
 }
+
 .link-boks p {
     padding-left: 5%;
     text-decoration: underline;
     cursor: pointer;
     font-size: 1vw;
 }
+
 .om-os-tekst {
     float: right;
     width: 60%;
 }
+
 .om-os-tekst h1 {
     margin-top: 15.9%;
     font-size: 1.6vw;
 }
+
 .om-os-tekst h2 {
     font-size: 1.6vw;
 }
+
 .om-os-tekst p {
     font-size: 1vw;
     padding-right: 5%;
@@ -351,14 +396,17 @@ body {
     margin-left: 5%;
     width: 20%;
 }
+
 .kontakt-opl p {
     padding-left: 5%;
     font-size: 1vw;
 }
+
 #kontakt-underline {
     text-decoration: underline;
     font-size: 1.2vw;
 }
+
 .rettelser {
     background-color: #FFFFFF;
     border: solid;
@@ -368,22 +416,26 @@ body {
     width: 50%;
     float: right;
 }
+
 .rettelser h1 {
     text-align: center;
     font-size: 2vw;
 }
+
 .rettelser p {
     text-align: center;
     padding: 0 5% 2% 5%;
     font-size: 1vw;
 }
+
 .rettelser label {
     margin-left: 5%;
     margin-top: 3%;
     font-weight: 600;
     font-size: 1vw;
-    float:left
+    float: left
 }
+
 .rettelser input {
     width: 74%;
     padding: 1%;
@@ -396,6 +448,7 @@ body {
     margin: 2% 5% 2% 2%;
     font-size: 1vw;
 }
+
 .rettelser textarea {
     width: 74%;
     padding: 1%;
@@ -409,12 +462,15 @@ body {
     height: 15vh;
     font-size: 1vw;
 }
+
 #e-mail {
     margin-top: 5%;
 }
+
 #textarea {
     margin-top: 6%;
 }
+
 #submit {
     margin-right: 5%;
     margin-bottom: 4%;
@@ -428,9 +484,11 @@ body {
     padding: 1%;
     font-family: verdana, sans-serif;
     font-style: italic;
-    float: right;;
+    float: right;
+    ;
     font-size: 1vw;
 }
+
 #submitSendt {
     background-color: #597E50;
     width: 15%;
@@ -443,19 +501,23 @@ body {
     text-align: center;
     display: none;
 }
+
 #submitSendt p {
     margin-top: 12%;
     font-size: 1vw;
 }
+
 .tidl-med-header {
     font-size: 2.5vw;
     margin-top: 7%;
     display: inline-block;
 }
+
 .tidl-med-containr {
     text-align: center;
     width: 100%;
 }
+
 .info-person-box {
     float: left;
     width: 25%;
@@ -465,6 +527,7 @@ body {
     background-color: #ffffff;
     margin-top: 3%;
 }
+
 .info-person-box img {
     float: left;
     width: inherit;
@@ -472,12 +535,14 @@ body {
     border-right: solid;
     background-color: rgba(89, 126, 80, 0.3);
 }
+
 .info-person-text {
     margin-left: 2%;
     margin-top: 2%;
     margin-bottom: 0%;
     float: left;
 }
+
 .read-more-btn {
     float: right;
     margin-right: 1%;
@@ -490,6 +555,7 @@ body {
     border-color: #000;
     border-width: thin;
 }
+
 .sorter-btn {
     width: 11%;
     float: right;
@@ -497,6 +563,7 @@ body {
     margin-right: 6%;
     margin-bottom: -6%;
 }
+
 .sorter-btn img {
     width: 11%;
     height: auto;
