@@ -543,7 +543,7 @@ html {
     font-family: Verdana, sans-serif;
 }
 
-.read-more-btn {
+#read-more-btn {
     float: right;
     margin-right: 1%;
     margin-top: 1%;
@@ -572,7 +572,7 @@ html {
     float: right;
     clear: both;
 }
-.info-overlay {
+#info-overlay {
     width: 80%;
     height: 75vh;
     background-color: #fff;
