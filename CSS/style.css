@@ -4,6 +4,9 @@ body {
     font-family: verdana, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth
+}
 
 
 /*Kodning for topbar */
