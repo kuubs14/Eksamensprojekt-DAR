@@ -543,7 +543,7 @@ html {
     font-family: Verdana, sans-serif;
 }
 
-#read-more-btn {
+#readMoreBtn {
     float: right;
     margin-right: 1%;
     margin-top: 1%;
@@ -572,7 +572,7 @@ html {
     float: right;
     clear: both;
 }
-#info-overlay {
+.infoOverlay {
     width: 80%;
     height: 75vh;
     background-color: #fff;
@@ -580,9 +580,9 @@ html {
     position: absolute;
     z-index: 0;
     border: solid;
-    display: none;
+    visibility: hidden;
 }
-.info-overlay img {
+.soldat-billede {
     float: left;
     background-color: rgba(89, 126, 80, 0.3);
     margin: 4%;
@@ -619,7 +619,7 @@ html {
     float: right;
     border: none;
 }
-.red_x_btn {
+#red_x_btn {
     background-color: white;
     width: 6.5%;
     float: right;

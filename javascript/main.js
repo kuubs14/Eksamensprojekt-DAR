@@ -1,20 +1,3 @@
-//Alert til kontakt submit
-
-function beskedSendt() {
-    alert("Din besked er sendt.");
-}
-
-
-let submitStatus = true;
-
-let visSubmit = function() {
-    
-    if (submitStatus === true){
-        getsubmitSendt.style.visibility = "visible";
-    }
-}
-
-
 setTimeout(function show() {
     document.getElementById("submitSendt").style.display = 'block';
 }, 5);
@@ -26,6 +9,18 @@ setTimeout(function () {
 
 
 
-function overlay() {
-    document.getElementById("infoOverlay").style.visibility = 'visible';
+function myFunction() {
+    document.getElementsByClassName('infoOverlay').style.visibility = 'visible'; 
 }
+
+
+//function overlay() {
+  //document.getElementById('infoOverlay');
+  //if (('infoOverlay').style.display === "none") {
+    //('infoOverlay').style.display = "block";
+  //} else {
+    //('infoOverlay').style.display = "none";
+  //}
+//}
+
+
