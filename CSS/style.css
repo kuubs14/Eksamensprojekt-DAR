@@ -490,3 +490,16 @@ body {
     border-color: #000;
     border-width: thin;
 }
+.sorter-btn {
+    width: 10%;
+    float: right;
+    clear: right;
+    margin-right: 6%;
+    margin-bottom: -6%;
+}
+.sorter-btn img {
+    width: 11%;
+    height: auto;
+    float: right;
+    clear: both;
+}
