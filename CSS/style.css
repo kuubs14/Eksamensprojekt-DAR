@@ -628,3 +628,90 @@ html {
     border: none;
     cursor: pointer;
 }
+
+
+
+/*Kode til skalerbarhed af ipad og mobil*/
+
+
+
+@media screen and (max-width: 930px) {
+    .t-med {
+        display: none;
+    }
+    .om-os {
+        display: none;
+    }
+    .kontakt {
+        display: none;
+    }
+    .topbar input {
+        display: none;
+    }
+    .search {
+        visibility: hidden;
+    }
+    .map {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .oversigt {
+    background-color: #597E50;
+    width: 60%;
+    height: 22.6vw;
+    margin-left: 20%;
+    margin-top: 5%;
+    border: solid;
+    float: left;
+    }
+
+    .oversigt-tekst {
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .oversigt button {
+        font-size: 2vw;
+    }
+    
+    .o-hus {
+    background-color: #597E50;
+    width: 60%;
+    height: 22.6vw;
+    margin-left: 20%;
+    margin-top: 5%;
+    border: solid;
+    }
+
+    .o-hus img {
+        width: 51%;
+        float: left;
+        border-right: solid;
+        border-color: #000000;
+        height: 15vw;
+    }
+
+    .o-hus-tekst {
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 1.5vw;
+        margin: 5% 5% 0 55%;
+    }
+
+    .o-hus button {
+        width: 35%;
+        position: relative;
+        left: 7.25%;
+        background-color: #C8102E;
+        color: #FFFFFF;
+        font-family: verdana, sans-serif;
+        font-size: 1vw;
+        border: solid;
+        border-color: #000000;
+        cursor: pointer;
+        margin-top: 7%;
+    }
+}
