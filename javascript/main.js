@@ -15,12 +15,6 @@ let visSubmit = function() {
 }
 
 
-
-
-
-
-
-
 setTimeout(function show() {
     document.getElementById("submitSendt").style.display = 'block';
 }, 5);
@@ -29,3 +23,6 @@ setTimeout(function show() {
 setTimeout(function () {
     document.getElementById('submitSendt').style.display='none';
     }, 3000);
+
+
+

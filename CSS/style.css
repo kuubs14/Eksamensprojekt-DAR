@@ -503,3 +503,43 @@ body {
     float: right;
     clear: both;
 }
+.info-overlay {
+    width: 80%;
+    height: 75vh;
+    background-color: #fff;
+    margin: 10%;
+    position: absolute;
+    z-index: 0;
+    border: solid;
+    display: none;
+}
+.info-overlay img {
+    float: left;
+    background-color: rgba(89, 126, 80, 0.3);
+    margin: 4%;
+    border: solid;
+}
+.overlay-text {
+    float: left;
+    margin-top: 3.5%;
+    font-size: 2vw;
+}
+.info-lillebox {
+    border: solid;
+    width: 22.25%;
+    height: 25vh;
+    float: left;
+    clear: left;
+    margin-top: -3%;
+    margin-left: 4%;
+    text-align: center;
+}
+.info-bigbox {
+    border: solid;
+    width: 60%;
+    height: 40vh;
+    float: right;
+    margin-top: -12.5%;
+    margin-right: 9%;
+    text-align: center;
+}
