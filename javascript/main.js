@@ -26,3 +26,6 @@ setTimeout(function () {
 
 
 
+function overlay() {
+    document.getElementById("infoOverlay").style.visibility = 'visible';
+}
