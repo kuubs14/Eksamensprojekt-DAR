@@ -485,7 +485,6 @@ html {
     font-family: verdana, sans-serif;
     font-style: italic;
     float: right;
-    ;
     font-size: 1vw;
 }
 
@@ -541,6 +540,7 @@ html {
     margin-top: 2%;
     margin-bottom: 0%;
     float: left;
+    font-family: Verdana, sans-serif;
 }
 
 .read-more-btn {
@@ -554,6 +554,7 @@ html {
     border: solid;
     border-color: #000;
     border-width: thin;
+    cursor: pointer;
 }
 
 .sorter-btn {
@@ -562,6 +563,7 @@ html {
     clear: right;
     margin-right: 6%;
     margin-bottom: -6%;
+    cursor: pointer;
 }
 
 .sorter-btn img {
@@ -593,8 +595,8 @@ html {
 }
 .info-lillebox {
     border: solid;
-    width: 22.25%;
-    height: 25vh;
+    width: 17.8vw;
+    height: 12.7vw;
     float: left;
     clear: left;
     margin-top: -3%;
@@ -603,10 +605,26 @@ html {
 }
 .info-bigbox {
     border: solid;
-    width: 60%;
-    height: 40vh;
+    width: 48vw;
+    height: 20vw;
     float: right;
-    margin-top: -12.5%;
+    margin-top: -12.2%;
     margin-right: 9%;
     text-align: center;
+}
+#red_x {
+    width: 4vw;
+    background-color: white;
+    height: 4vw;
+    float: right;
+    border: none;
+}
+.red_x_btn {
+    background-color: white;
+    width: 6.5%;
+    float: right;
+    clear: right;
+    margin: 1%;
+    border: none;
+    cursor: pointer;
 }
