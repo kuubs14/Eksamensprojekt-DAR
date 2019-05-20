@@ -447,3 +447,46 @@ body {
     margin-top: 12%;
     font-size: 1vw;
 }
+.tidl-med-header {
+    font-size: 2.5vw;
+    margin-top: 7%;
+    display: inline-block;
+}
+.tidl-med-containr {
+    text-align: center;
+    width: 100%;
+}
+.info-person-box {
+    float: left;
+    width: 25%;
+    height: auto;
+    border: solid;
+    margin-left: 5.9%;
+    background-color: #ffffff;
+    margin-top: 3%;
+}
+.info-person-box img {
+    float: left;
+    width: inherit;
+    height: inherit;
+    border-right: solid;
+    background-color: rgba(89, 126, 80, 0.3);
+}
+.info-person-text {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    float: left;
+}
+.read-more-btn {
+    float: right;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #fff;
+    background-color: #c8102e;
+    font-family: Verdana, sans-serif;
+    border: solid;
+    border-color: #000;
+    border-width: thin;
+}
