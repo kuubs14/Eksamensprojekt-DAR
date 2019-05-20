@@ -53,6 +53,7 @@ body {
     width: 18%;
     border-right: solid;
     min-height: 75px;
+    color: #000000;
 }
 .t-med:hover {
     background-color: #555555;
