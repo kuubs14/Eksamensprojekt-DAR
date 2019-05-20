@@ -654,7 +654,55 @@ html {
     .map {
         display: none;
     }
+    .om-os-aktiv {
+        display: none;
+    }
+    .kontakt-aktiv {
+        display: none;
+    }
+    .om-os-main img {
+        width: 70%;
+        margin-top: 20%;
+        margin-left: 15%;
+    }
+    .link-boks {
+        margin-left: 15%;
+        width: 70%;
+        margin-top: 0;
+        margin-bottom: 5%;
+    }
+
+    .link-boks p {
+        padding-left: 5%;
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .om-os-tekst {
+        width: 70%;
+        margin-right: 15%;
+        text-align: center;
+    }
+
+    .om-os-tekst h1 {
+        margin-top: 10%;
+        font-size: 2vw;
+    }
+
+    .om-os-tekst h2 {
+        font-size: 2vw;
+    }
+
+    .om-os-tekst p {
+        font-size: 2vw;
+        padding-right: 5%;
+        margin-bottom: 10%;
+    }
+
 }
+
+
+
 
 @media screen and (max-width: 700px) {
     .oversigt {
@@ -678,40 +726,32 @@ html {
     }
     
     .o-hus {
-    background-color: #597E50;
-    width: 60%;
-    height: 22.6vw;
-    margin-left: 20%;
-    margin-top: 5%;
-    border: solid;
+        width: 60%;
+        height: 22.6vw;
+        margin-left: 20%;
+        margin-bottom: 5%;
     }
 
     .o-hus img {
-        width: 51%;
-        float: left;
-        border-right: solid;
-        border-color: #000000;
-        height: 15vw;
+        height: 22.5vw;
     }
 
     .o-hus-tekst {
         color: #FFFFFF;
         text-align: center;
-        font-size: 1.5vw;
+        font-size: 2vw;
         margin: 5% 5% 0 55%;
     }
 
     .o-hus button {
-        width: 35%;
-        position: relative;
-        left: 7.25%;
-        background-color: #C8102E;
-        color: #FFFFFF;
-        font-family: verdana, sans-serif;
-        font-size: 1vw;
-        border: solid;
-        border-color: #000000;
-        cursor: pointer;
-        margin-top: 7%;
+        font-size: 2vw;
+        margin-top: 5%;
+    }
+    .info {
+        width: 60%;
+        margin-right: 19%;
+    }
+    .info p {
+        font-size: 2vw;
     }
 }
