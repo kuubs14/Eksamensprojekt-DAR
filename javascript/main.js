@@ -8,19 +8,7 @@ setTimeout(function () {
     }, 3000);
 
 
+document.getElementById("readMoreBtn").addEventListener("click", showOverlay(){
 
-function myFunction() {
-    document.getElementsByClassName('infoOverlay').style.visibility = 'visible'; 
-}
-
-
-//function overlay() {
-  //document.getElementById('infoOverlay');
-  //if (('infoOverlay').style.display === "none") {
-    //('infoOverlay').style.display = "block";
-  //} else {
-    //('infoOverlay').style.display = "none";
-  //}
-//}
-
-
+    function showOverlay()  document.getElementById("infoOverlay").style.display = "block";
+});
