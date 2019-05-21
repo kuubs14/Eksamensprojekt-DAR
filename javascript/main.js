@@ -8,7 +8,5 @@ setTimeout(function () {
     }, 3000);
 
 
-document.getElementById("readMoreBtn").addEventListener("click", showOverlay(){
-
-    function showOverlay()  document.getElementById("infoOverlay").style.display = "block";
-});
+function showOverlay() { document.getElementById("infoOverlay").style.display = "block";
+}
