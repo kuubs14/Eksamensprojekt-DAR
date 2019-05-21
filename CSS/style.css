@@ -587,7 +587,7 @@ html {
 }
 #infoOverlay {
     width: 80%;
-    height: 75vh;
+    height: 37vw;
     background-color: #fff;
     margin: 10%;
     position: absolute;
@@ -606,7 +606,8 @@ html {
     float: left;
     font-size: 1em;
     font-weight: 300;
-    margin-top: 2.5%; 
+    margin-top: 2.5%;
+    font-size: 1vw;
 }
 .info-lillebox {
     border: solid;
@@ -621,14 +622,16 @@ html {
 #smallBox {
     font-weight: 300;
     margin: 4%;
+    font-size: 1vw;
 }
 #largeBox {
     font-weight: 300;
     margin: 4%;
+    font-size: 1vw;
 }
 .info-bigbox {
     border: solid;
-    width: 48vw;
+    width: 60%;
     height: 20vw;
     float: right;
     margin-top: -12.2%;
@@ -804,6 +807,39 @@ html {
         margin-top: -1%;
         line-height: 1.5;
         font-size: 1.5vw;
+    }
+    #infoOverlay {
+        height: 100vw;
+        margin-top: 17%;
+    }
+    .soldat-billede {
+        margin-left: 30%;
+        width: 40%;
+    }
+    .overlay-text {
+        margin-top: -5%;
+        font-size: 2vw;
+        margin-left: 38%; 
+        margin-bottom: 2%;
+    }
+    .info-lillebox {
+        width: 40%;
+        height: 12.7vw;
+        margin-top: 0;
+        margin-left: 30%;
+    }
+    #smallBox {
+        font-weight: 300;
+        margin: 4%;
+        font-size: 2vw;
+    }
+    #largeBox {
+        font-size: 2vw;
+    }
+    .info-bigbox {
+        width: 60%;
+        margin-top: 2%;;
+        margin-right: 20%;
     }
 }
 
