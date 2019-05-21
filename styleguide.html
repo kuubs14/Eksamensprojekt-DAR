@@ -16,10 +16,9 @@
       <li><a href="#map">Interaktivt Kort</a></li>
       <li><a href="#billede">Billedstil</a></li>
       <li><a href="#knapper">Knapper</a></li>
-      <li><a href="#tone">Tone Of Voice</a></li>
     </ul>
     
-    <div class="content">
+    <main>
 
         <div>
             <img class="logo" src="Billeder/Forsvaret-logo.png" alt="logo">
@@ -152,6 +151,7 @@
                 border-color: #000000;
             </p>
         </div>
+        <p>Når den er aktiv, skal den se sådan ud</p>
         <div class="knap">
             <img src="Billeder/om-os-aktiv-knap.png" alt="Om os aktiv knap">
         </div>
@@ -175,15 +175,64 @@
                 color: #FFFFFF;
             </p>
         </div>
-        
-        
-        
-<a name="tone"><h2>Tone Of Voice
-        </h2></a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Vi har en knap, hvor når man trykker på nde, skal den rulle videre til inholdet, som er nedenunder</p>
+        <div class="knap">
+            <img class="pil-ned" src="Billeder/pil-ned.png" alt="Pil ned knap">
+        </div>
+        <div class="kode-boks">
+            <p>
+               .rul-ned {<br>
+                text-align: center;<br>
+                }    
+                <br><br>
+                .rul-ned img {<br>
+                display: inline-block;<br>
+                width: 90px;<br>
+                margin-top: -25px;<br>
+                cursor: pointer;<br>
+                } 
+            </p>
+        </div>
+        <p>Vi bruger en call to action knap, som skal føre hen til henholdsvis en oversigt over de afskedige og en tilmelding til åbent hus.</p>
+        <div class="knap">
+            <img src="Billeder/cta-knap.png" alt="Call to action knap">
+        </div>
+        <div class="kode-boks">
+            <p>
+                width: 35%;<br>
+                position: relative;<br>
+                left: 7.25%;<br>
+                background-color: #C8102E;<br>
+                color: #FFFFFF;<br>
+                font-family: verdana, sans-serif;<br>
+                font-size: 1vw;<br>
+                border: solid;<br>
+                border-color: #000000;<br>
+                cursor: pointer;
+            </p>
+        </div>
+        <p>Vi har en anden call to action knap, som skal føre videre til mere information om den specifikke afskedige.</p>
+        <div class="knap">
+            <img src="Billeder/cta-knap-info.png" alt="Call to action knap for mere viden om afskedig">
+        </div>
+        <div class="kode-boks">
+            <p>
+                float: right;<br>
+                margin-right: 1%;<br>
+                margin-top: 1%;<br>
+                margin-bottom: 1%;<br>
+                color: #fff;<br>
+                background-color: #c8102e;<br>
+                font-family: Verdana, sans-serif;<br>
+                border: solid;<br>
+                border-color: #000;<br>
+                border-width: thin;<br>
+                cursor: pointer;
+            </p>
+        </div>
 
-    </div>
-    <br><br><br>
+    </main>
+    <br>
 </body>
 
 </html>
