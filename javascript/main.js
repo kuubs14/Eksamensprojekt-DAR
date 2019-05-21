@@ -1,21 +1,26 @@
+//Kode om send knap
+
+
 setTimeout(function show() {
-    document.getElementById("submitSendt").style.display = 'block';
+    document.getElementById("submitSendt").style.display = 'block';   
 }, 5);
 
-
-setTimeout(function () {
+setTimeout(function show() {
     document.getElementById('submitSendt').style.display='none';
     }, 3000);
 
 
 
 
-
+//kode for at fjerne mere info
 
 function hideOverlay() {
     document.getElementById("infoOverlay").style.display = "none"; 
 }
 
+
+
+//Kode til at få mere info frem
 
 let medarbejderInfo = [
     ['E. Frandsen', 'MJ', '30. mar. 1983', 1],
@@ -54,6 +59,10 @@ function profil3() {
     document.getElementById("smallBox").innerHTML = "Her skal der f.eks. stå en kort historie om" + " " + medarbejderInfo[2][0] + ", " + "eller et citat fra ham.";
     document.getElementById("largeBox").innerHTML = "Her skal der stå mere information om" + " " + medarbejderInfo[2][0] + ", " + "og deres tid og bedrifter i regimentet.";
 }
+
+
+
+//Kode til soteringsknappen
 
 function sortOverlay() {
   let x = document.getElementById("sorterOverlay");
