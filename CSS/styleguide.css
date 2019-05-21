@@ -2,7 +2,7 @@
  * 
  */
 body {
-
+    background-color: #ECECEC;
     font-family: verdana, sans-serif;
     margin-left: 10%;
 
@@ -13,9 +13,8 @@ html {
 }
 
 
-.content {
+main {
     max-width: 1000px;
-    background: white;
     margin: auto;
 }
 
@@ -98,8 +97,8 @@ p {
 }
 
 .interactiveMap {
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
     margin-top: 20px;
     margin-bottom: 50px;
 }
@@ -109,9 +108,9 @@ ul {
     margin-left: -10%;
     padding: 0;
     width: 200px;
-    background-color: #ffffff;
+    background-color: #ECECEC;
     float: left;
-    margin-top: 7.5%;
+    margin-top: 9%;
     font-style: italic;
     position: fixed;
 }
@@ -155,19 +154,22 @@ li:last-child {
 
 
 
-.logo-kode {
+.kode-boks {
     width: 30%;
     margin: 0 auto;
     border: solid;
     margin-bottom: 5%;
-}
-.typo-kode {
-    width: 30%;
-    margin: 0 auto;
-    border: solid;
-    margin-bottom: 5%;
+    text-align: center;
 }
 h3 {
     text-align: center;
     margin: 0 auto;
+}
+.knap {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.pil-ned {
+    width: 20%;
 }
