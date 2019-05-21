@@ -572,7 +572,7 @@ html {
     float: right;
     clear: both;
 }
-.infoOverlay {
+#infoOverlay {
     width: 80%;
     height: 75vh;
     background-color: #fff;
@@ -580,7 +580,7 @@ html {
     position: absolute;
     z-index: 0;
     border: solid;
-    visibility: hidden;
+    display: none;
 }
 .soldat-billede {
     float: left;

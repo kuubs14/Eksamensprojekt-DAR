@@ -36,7 +36,7 @@
         </a>
         <div>
 
-            <button class="search" type="submit" onclick="overlay()"><img src="../Billeder/search.png" alt="Søg"></button>
+            <button class="search" type="submit"><img src="../Billeder/search.png" alt="Søg"></button>
 
             <input type="text" placeholder="Søg...">
 
@@ -45,7 +45,7 @@
 
 
     <main>
-       <div class="infoOverlay">
+       <div id="infoOverlay">
            <img class="soldat-billede" src="../Billeder/soldat-ikon.png">
            <button id="red_x_btn">
                <img id="red_x" src="../Billeder/red_cross.png">
@@ -77,7 +77,7 @@
                 <br>Rang: MJ
                 <br>Pensioneret: 30. mar. 1983</p>
             
-            <button onclick="myFunction()" id="readMoreBtn">Læs mere...</button> 
+            <button id="readMoreBtn" onclick="showOverlay()">Læs mere...</button> 
             
         </div>
 
@@ -87,7 +87,7 @@
                 Navn: S.AA Mathiesen
                 <br>Rang: KTBTJ
                 <br>Pensioneret: 30. mar. 1983</p>
-            <button id="readMoreBtn" onclick="overlay()">Læs mere...</button>
+            <button id="readMoreBtn">Læs mere...</button>
         </div>
 
         <div class="info-person-box">
