@@ -72,3 +72,16 @@ function sortOverlay() {
     x.style.display = "none";
   }
 }
+
+
+//Kode til burgermenu til ipad og mobil
+
+
+function respNav() {
+    let respLinks = document.getElementById("respLinks");
+    if (respLinks.style.display === "none") {
+        respLinks.style.display = "block";
+    } else {
+        respLinks.style.display = "none";
+    }
+}

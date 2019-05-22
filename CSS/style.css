@@ -178,6 +178,21 @@ html {
     margin-top: 11.5px;
     margin-right: 1%;
 }
+.burger {
+    display: none;
+}
+#respLinks {
+    display: none;
+}
+.respTidlDiv {
+    display: none;
+}
+.respOmDiv {
+    display: none;
+}
+.respKontaktDiv {
+    display: none;
+}
 
 @media screen and (min-width: 1398px) {
     .topbar input {
@@ -840,6 +855,41 @@ html {
         width: 60%;
         margin-top: 2%;;
         margin-right: 20%;
+    }
+    
+    .burger {
+        display: block;
+        width: 7vw;
+        min-width: 64px;
+        float: right;
+        margin-right: -6%;
+        height: 7vw;
+        min-height: 65px;
+        margin-top: 0.5%;
+        cursor: pointer;
+    }
+    
+    #respLinks {
+        margin-top: 73px;
+    }
+    #respLinks a {
+        color: #000000;
+        background-color: #ECECEC;     
+        padding: 14px 16px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        clear: right;
+    }
+    .respTidlDiv {
+        border-top: solid
+    }
+    .respOmDiv {
+        border-top: solid;
+        border-bottom: solid;
+    }
+    .respKontaktDiv {
+        border-bottom: solid;
     }
 }
 
