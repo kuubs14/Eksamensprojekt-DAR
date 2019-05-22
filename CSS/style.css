@@ -870,7 +870,7 @@ html {
     }
     
     #respLinks {
-        margin-top: 73px;
+        margin-top: 75px;
     }
     #respLinks a {
         color: #000000;
@@ -882,14 +882,26 @@ html {
         clear: right;
     }
     .respTidlDiv {
-        border-top: solid
+        border-top: solid;
+        text-decoration: none;
     }
     .respOmDiv {
         border-top: solid;
         border-bottom: solid;
+        text-decoration: none;
     }
     .respKontaktDiv {
         border-bottom: solid;
+        text-decoration: none;
+    }
+    .respOmDivAktiv {
+        text-decoration: underline;
+    }
+    .respKontaktDivAktiv {
+        text-decoration: underline;
+    }
+    .respTidlDivAktiv {
+        text-decoration: underline;
     }
 }
 
