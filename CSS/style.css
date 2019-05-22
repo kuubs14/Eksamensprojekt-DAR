@@ -72,6 +72,19 @@ html {
 .t-med p {
     text-align: center;
 }
+.t-med-aktiv {
+    height: 10vh;
+    float: left;
+    width: 18%;
+    border-right: solid;
+    min-height: 75px;
+    color: #FFFFFF;
+    background-color: #555555;
+    border-color: #000000;
+}
+.t-med-aktiv p {
+    text-align: center;
+}
 
 .om-os {
     height: 10vh;
@@ -541,7 +554,7 @@ html {
     border: solid;
     margin-left: 5.9%;
     background-color: #ffffff;
-    margin-top: 3%;
+    margin-top: 4%;
     margin-bottom: 2%;
 }
 
@@ -904,6 +917,9 @@ html {
     }
     .respTidlDivAktiv {
         text-decoration: underline;
+    }
+    .t-med-aktiv {
+        display: none;
     }
 }
 
